@@ -7,7 +7,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background: url("/assets/images/bg-desktop.jpg") no-repeat center / cover;
+  background: url("./assets/images/bg-desktop.jpg") no-repeat center / cover;
   font-family: "Inter", sans-serif;
 }
 
