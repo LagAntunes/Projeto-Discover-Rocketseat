@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto 1</title>
+    <title>Projeto Rocketseat - Discover</title>
 
     <link type="text/css" rel="stylesheet" href="style.css" />
 
@@ -14,12 +14,63 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="light-mode">
     <main class="content">
       <div class="image-wrapper">
-        <img src="./assets/images/luis.jfif" alt="Minha foto" />
-        <a href="https://github.com/LagAntunes" target="_blank">@LagAntunes</a>
+        <img
+          src="./assets/images/luis.jfif"
+          alt="Foto de Luis Antonio Garcia Antunes"
+        />
+        <span>Luis Antonio</span>
+        <span>Desenvolvedor front-end junior</span>
       </div>
+
+      <div id="switch">
+        <button
+          aria-label="Botão de alternar entre modos escuro e claro"
+        ></button>
+        <span></span>
+      </div>
+
+      <ul class="links">
+        <li>
+          <a href="https://github.com/LagAntunes" target="_blank"
+            >Acesse meu portfolio no GitHub
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/luis-antonio-garcia-antunes/"
+            target="_blank"
+            >Acesse meu perfil no LinkedIn
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/5541984920165" target="_blank"
+            >Entre em contato pelo Whatsapp
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+      </ul>
     </main>
+
+    <footer>
+      <p>
+        Projeto desenvolvido durante o curso Discover da
+        <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>.
+        Desenvolvido por Luis Antonio
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
