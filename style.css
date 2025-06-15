@@ -41,6 +41,7 @@ body {
   height: 100vh;
   background: var(--bg-url) no-repeat center / cover;
   font-family: "Inter", sans-serif;
+  transition: background ease-in-out 0.5s;
 }
 
 body ul {
@@ -115,11 +116,12 @@ body a {
   top: 0;
   left: 0;
   z-index: 1;
+  transition: transform ease-in-out 0.5s;
 }
 
 .light-mode #switch button {
-  right: 0;
-  left: initial;
+  transform: translateX(32px);
+  transition: transform ease-in-out 0.5s;
 }
 
 #switch span {
